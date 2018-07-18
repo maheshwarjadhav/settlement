@@ -1,0 +1,122 @@
+
+
+.login-wrapper {
+    margin-top: 30px;
+}
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.login-container {
+    width: 300px;
+    border: 1px solid #dbdbdb;
+    padding: 20px 19px 10px 19px;
+    box-shadow: 0 7px 1px -5px #dbdbdb;
+    -webkit-box-shadow: 0 7px 1px -5px #dbdbdb;
+    -moz-box-shadow: 0 7px 1px -5px #dbdbdb;
+}
+
+.login-container .modal-headline {
+    margin-bottom: 17px;
+    font-weight: bold;
+    font-size: 1.1875em;
+    line-height: 1.1em;
+}
+
+.errors {
+    color: red;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.login-container .input-wrapper {
+    padding: 5px 0 20px 0;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.login-container .input-wrapper input[type="text"], .login-container .input-wrapper input[type="password"], .login-container .input-wrapper input[type="tel"] {
+    font-weight: normal;
+    margin-top: 0;
+    width: 260px;
+}
+
+.login-container .input-wrapper input[type="text"], .login-container .input-wrapper input[type="password"], .login-container .input-wrapper input[type="tel"] {
+    font-weight: normal;
+    margin-top: 0;
+    width: 260px;
+}
+
+.login-container .custom-checkbox {
+    font-family: Meta-Norm;
+}
+
+.login-container .custom-checkbox {
+    margin-top: 18px;
+}
+
+.login-container {
+    width: 300px;
+    border: 1px solid #dbdbdb;
+    padding: 20px 19px 10px 19px;
+    box-shadow: 0 7px 1px -5px #dbdbdb;
+    -webkit-box-shadow: 0 7px 1px -5px #dbdbdb;
+    -moz-box-shadow: 0 7px 1px -5px #dbdbdb;
+}
+
+.custom-checkbox, .custom-radio {
+    margin: 30px 0;
+}
+
+.custom-checkbox .custom-element.icon-checkbox, .custom-radio .custom-element.icon-checkbox {
+    background-position: -642px -291px;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    min-width: 74px;
+    max-width: 264px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 0 none;
+    padding: 8px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 1.1875em;
+    background: #ff6000;
+}
+
+#login-new-header {
+    font-size: 1.6em;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: -17px;
+    text-align: center;
+    margin-left: 223px;
+    padding-top: 10px;
+}
+
+.login-wrapper .login-web-target .logincard-image-discover {
+    height: 200px;
+    width: 597px;
+    background: url(./../img/Discover_Login_Cards_597_200.jpg) no-repeat;
+    margin-top: 50px;
+    background-size: contain;
+}

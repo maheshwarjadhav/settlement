@@ -1,0 +1,537 @@
+/*
+ * Contains common styles for Card Member Acquisition Group Web Applications
+ */
+a {
+    font-size: 100%;
+    color: blue;
+    text-decoration: underline;
+    cursor: hand
+}
+
+
+hr {
+    color: black;
+    height: 1px
+}
+
+/*************************************/
+/* This section contains menu styles */
+/*************************************/
+
+
+#dropmenu0,#dropmenu1,#dropmenu3,#dropmenu4,#dropmenu5,#dropmenu6,#dropmenu7,#dropmenu8 {
+    background-color:#6699CC;
+    width:150px
+}
+
+#dropmenu2 {
+    border: 2px solid black
+}
+
+.iewrap1 {
+    position:absolute;height:20px
+}
+
+.iewrap2 {
+    color:#FFFFFF
+}
+
+.iewrap3 {
+    position:relative
+}
+
+.menuback {
+    background-color:#6699CC
+}
+
+.menuhead {
+    color: #FFFFFF
+}
+
+.topmenu {
+    font-size: 8pt;
+    color: #FFFFFF;
+    padding-left: 3px;
+    width: 150px;
+    cursor: default
+}
+
+/* This is for the custom pulldown */
+.topmenub {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #002266;
+    text-decoration: none;
+    width: 140px;
+    cursor: default
+}
+
+/* This is for the custom pulldown */
+.topmenuc {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #002266;
+    text-decoration: none;
+    width: 300px;
+    cursor: default
+}
+
+/********************************************************/
+/* This section contains table styles                   */
+/********************************************************/
+
+/* For use with cells that require a bottom border*/
+.tblBorderBottomThin{
+    border-bottom : thin solid Black;
+}
+
+/*For use with  table cell with bottom thin border of 1px*/
+.tblBorderBottomThin1px{
+    border-bottom : thin solid Black;
+    border-bottom-width : 1px;
+}
+
+/*For use with  table cell with bottom and right thin border*/
+.tblBorderBottomRightThin{
+    border-right : thin solid Black;
+    border-bottom : thin solid Black;
+}
+
+/*For use with  table cell with right thin border*/
+.tblBorderRightThin{
+    border-right : thin solid Black;
+}
+
+/*For use with  table cell with right thin border of 1px*/
+.tblBorderRightThin1px{
+    border-right : thin solid Black;
+    border-width : 1px;
+}
+
+/* For use with cells that require a top border*/
+.tblBorderTopThin{
+    border-top : thin solid Black;
+}
+
+/*For use with  table cell with top and right thin border*/
+.tblBorderTopRightThin{
+    border-right : thin solid Black;
+    border-top : thin solid Black;
+}
+
+.tblheadercma {
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: thin groove #ADD8E6;
+    border-width : 2px 0px 2px 0px
+}
+
+.tblmaincma {
+    text-align: left;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    background-color: #F0F8FF;
+    border: thin groove #ADD8E6;
+    border-width : 0px 2px 2px 2px
+}
+
+.tdapplication {
+    font-style : normal;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 3px;
+
+}
+
+.tdbtnpullback {
+    background-color: #E6E6FA
+}
+
+.tdcntntR {
+    font-size: 75%;
+    color: Red
+}
+
+.tdsmallR {
+    font-size: 58%;
+    color: Red
+}
+
+.tdcntntsmall {
+    font-size: 70%;
+    color: Blue
+}
+.tdcntntBoldGreen {
+    font-size: 80%;
+
+    color: green;
+    text-align: left;
+}
+.tdcntntsmallcaps {
+    font-size: 70%;
+    color: Blue;
+    text-transform : uppercase;
+}
+
+.tdcntntsmallcapsbold {
+    font-size: 60%;
+    color: White;
+    text-transform : uppercase;
+    background-color : #639ACE;
+
+}
+.tdcntntGreenbold {
+    padding-top:2px;
+    color: Green;
+
+}
+.tdcntntsmallG {
+    font-size: 70%;
+    color: Green;
+}
+
+.tdcntntsmallR {
+    font-size: 70%;
+    color: Red;
+}
+.tdcntntsmallB {
+    font-size: 70%;
+    color: Blue;
+}
+.tdcntntsmallR1 {
+    font-size: 80%;
+    color: Red;
+}
+
+.tddepartment {
+    font-size: 75%;
+    font-weight: bold;
+    color:white;
+    text-transform: capitalize;
+    padding-bottom: 3px
+}
+
+.tddivider {
+    border-left: thin dotted silver
+}
+
+/*Small text for cells*/
+.tdfrmsmall {
+    font-size: 60%;
+}
+.tdfrmleadsmall {
+    font-size: 60%;
+    text-transform: uppercase
+}
+
+/*Small italic text for cells*/
+.tdfrmsmallitalic {
+    font-size: 60%;
+    font-style : italic;
+}
+
+.tdheadsmall {
+    font-weight: bold;
+    font-size: 70%;
+    color: navy
+}
+
+.tdRedTxt {
+    color: Red;
+}
+
+/*Small Italic Text*/
+.tdShade1Italic {
+    font-size: 75%;
+    background-color: #F0F8FF;
+    font-style : italic;
+}
+
+/*Small Italic Text*/
+.tdShade2Italic {
+    font-size: 75%;
+    background-color: #F0FFF0;
+    font-style : italic;
+}
+
+.tdShade3Italic {
+    font-size: 70%;
+    background-color: #F0F8FF;
+    font-style : italic;
+}
+
+/*Red Text*/
+.tdShadeRed {
+    color: white;
+    font-size: 75%;
+    background-color: Red;
+}
+
+/*for table cells with shade1 and no font change*/
+.tdshade1bgonly {
+    background-color: #F0F8FF;
+    font-size: 75%;
+}
+
+/*for table cells with shade2 and no font change*/
+.tdshade2bgonly {
+    background-color: #F0FFF0;
+}
+
+/*Small Gray Text*/
+.tdSmallGray {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 75%;
+    color: gray;
+}
+
+.tdsubtitlecma {
+    font-size: 80%;
+    font-weight: bold;
+    color: navy;
+    text-transform: capitalize;
+    padding-bottom: 0px
+}
+
+/********************************************/
+/* This section contains form object styles */
+/********************************************/
+.btnbannobold {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: normal;
+    color: #002266;
+    font-size: 75%;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+
+.btnprint {
+    background-color: silver;
+    vertical-align: middle;
+    height: 26px;
+    width: 26px;
+    padding: 0;
+}
+
+.btnpull {
+    background-color: silver;
+    width: 15px;
+    height: 24px;
+    margin-top: 2px;
+    vertical-align: middle;
+    border-top: 1px groove black;
+}
+
+.btnsmall {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: normal;
+    color: #002266;
+    font-size: 70%;
+    width: 60px;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+
+.btnheader {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: normal;
+    color: #002266;
+    font-size: 70%;
+    width: 45px;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+
+.btnmedium {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: normal;
+    color: #002266;
+    font-size: 70%;
+    width: 110px;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+
+.btnmedium1 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: normal;
+    color: #002266;
+    font-size: 75%;
+    width: 110px;
+    height: 20px;
+    vertical-align: middle ;
+    text-transform: capitalize
+}
+
+   .btnmediumRedColor {
+       font-family: Tahoma, Arial, Helvetica, sans-serif;
+       background-color: #8B0000;
+       font-weight: normal;
+       color: #002266;
+       font-size: 100%;
+       width: 110px;
+       height: 35px;
+       vertical-align: middle ;
+       text-transform: capitalize
+   }
+
+.btnmediumGreenColor {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #008000;
+    font-weight: normal;
+    color: #002266;
+    font-size: 100%;
+    width: 110px;
+    height: 35px;
+    vertical-align: middle ;
+    text-transform: capitalize
+}
+
+.btnmediumRedClr {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: Red;
+    font-weight: normal;
+    color: #002266;
+    font-size: 100%;
+    width: 110px;
+    height: 35px;
+    vertical-align: middle ;
+    text-transform: capitalize
+}
+
+
+#txtcustbox {
+    border-top: 1px groove white;
+    border-right: 1px solid #E6E6FA;
+    border-bottom: 1px groove #000000;
+    padding-left: 2px;
+    height: 20px
+}
+
+/*********************************************/
+/* This section contains specific CMA styles */
+/*********************************************/
+
+/* For use with the expanding/contracting text*/
+.hiddentext {
+    display:none;
+}
+
+/* For use with the expanding/contracting text*/
+.hiddentext1{
+    font-size: 14px; !important
+background-color: #F0F8FF;
+    display:none;
+}
+
+/* For use with the expanding/contracting text*/
+.hiddentext2{
+    font-size: 14px; !important
+background-color: #F0FFF0;
+    display:none;
+}
+
+#pullstyle {
+    width: 150px;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* This is for the custom pulldown */
+#pullstyleb {
+    width: 140px;
+    color: #002266;
+    font-weight: normal;
+    text-decoration: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px
+}/***************************************************/
+/*******        For Credit Summary              ****/
+/***************************************************/
+.tdGreenColorbold {
+    color: Green;
+    font-size: 90%;
+}
+
+.tdBlueColorbold {
+    color: #000033;
+    font-size: 90%;
+}
+
+.tdBlueColorbold1 {
+    color: #0000A0;
+    font-size: 100%;
+}
+
+.tdGreyColorNormal {
+    color: #808080;
+    font-size: 100%;
+}
+
+.tdGreenColorNormal {
+    color: Green;
+    font-size: 75%;
+
+}
+
+.tdBlueColorNormal {
+    color: #000033;
+    font-size: 75%;
+
+}.tdShade1New {
+     font-size: 100%;
+     background-color: #F0F8FF
+ }
+.btnmediumNew {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: normal;
+    color: #002266;
+    font-size: 50%;
+    width: 80px;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+
+.tdshade1Font {
+    font-size: 80%;
+    background-color: #F0F8FF
+}
+.noBorder {
+    border: 0px;
+}
+
+.tdShade1Grey {
+    font-size: 75%;
+    color: #848484
+}
+.tdShadeNoBorder {
+    border: 0px;
+    font-size: 75%;
+    background-color: #F0F8FF
+}
+.tdShadeRedNoBorder {
+    border: 0px;
+    font-size: 75%;
+    color: red;
+}

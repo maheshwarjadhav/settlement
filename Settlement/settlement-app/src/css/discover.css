@@ -1,0 +1,489 @@
+/* This is the main style sheet for Discover Financial Services web applications
+and is based on both the style sheet developed for the Prism NT application
+and the style sheet developed for the eOrion web application  prototype.
+The above style sheets were created by Robert Sobkoviak in 2000-2002
+
+Please note well:  This style sheet is not yet a standard at Discover, but a work in progress.
+Use this style sheet with the warning that changes are likely and may affect your design.
+
+This style sheet was last edited on 2-15-2002 by Rob Sobkoviak */
+
+/*This section contains selectors for main page elements*/
+
+body {
+    background-color: #F0F8FF;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    font-weight: normal;
+    font-weight: normal;
+    color: #002266;
+    cursor: default;
+    margin-top:2px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    margin-right: 3px
+}
+a {
+    font-size: 75%;
+    cursor: default
+}
+/*This section contains styles used in tables and table components */
+
+.divbox {
+    background-color: #E6E6FA;
+    border: thin groove #ADD8E6;
+    cursor: default;
+    overflow-x : auto;
+    overflow-y : auto
+}
+
+.divtdcnt {
+    text-transform: uppercase;
+    font-size: 75%;
+    vertical-align: middle;
+    text-align: left
+}
+.tdcntnt {
+    font-size: 75%;
+    color: Blue
+}
+.tdcntntcaps {
+    font-size: 75%;
+    color: Blue;
+    text-transform: uppercase
+}
+.tdbancntnt {
+    font-size: 75%;
+    font-weight: bold;
+    color: white;
+    filter: glow(color=navy, strength=1);
+    letter-spacing : 1px
+}
+.tdbancntntdis {
+    font-size: 75%;
+    font-weight: bold;
+    color: gray;
+    filter : dropshadow(color=white, offX=2, offy=2, positive=2);
+    letter-spacing: 1px
+}
+.tblmain {
+    text-align: left;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: thin groove #ADD8E6;
+    border-width : 0px 2px 2px 2px
+}
+.tblthin {
+    border : thin groove #ADD8E6;
+    padding : 2px 2px 2px 2px
+}
+.tblPersData {
+    background-color: #F0F8FF
+}
+.tblPersInfo {
+    background-color: #F5FFFA;
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+.tblMainData {
+    background-color: #F0F8FF
+}
+.tblRowHead {
+    background-color: #E0FFFF
+}
+.tdShade1 {
+    font-size: 75%;
+    background-color: #F0F8FF;
+}
+.tdShadeGreen {
+    font-size: 75%;
+    background-color: #008000
+}
+.tdShadeRed {
+    font-size: 75%;
+    background-color: #FF0000
+}
+.tdboldtext {
+    font-size: 75%;
+    background-color: #F0F8FF;
+    font-weight: bold;
+}
+.tdShade2 {
+    font-size: 75%;
+    background-color: #F0FFF0;
+}
+.tdhead {
+    font-weight: bold;
+    font-size: 75%;
+    color: navy
+}
+.tdShade1Red {
+    font-size: 75%;
+    color: red;
+}
+.tdheaddis {
+    font-weight: bold;
+    font-size: 75%;
+    color: gray;
+    filter : dropshadow(color=silver, offX=2, offy=2, positive=2)
+}
+.tdheadnobold {
+    font-size: 75%;
+    color: navy
+}
+.tdheadnobolddis {
+    font-size: 75%;
+    color: gray;
+    filter : dropshadow(color=silver, offX=2, offy=2, positive=2)
+}
+.tdbanhead {
+    font-weight: bold;
+    font-size: 75%;
+    color: white;
+    filter: glow(color=navy, strength=2);
+    letter-spacing: 1px
+}
+.tdbanheaddis {
+    font-weight: bold;
+    font-size: 75%;
+    color: gray;
+    filter : dropshadow(color=white, offX=2, offy=2, positive=2);
+    letter-spacing: 1px
+}
+.tdoutmar {
+    width: 1%
+}
+.tdmain {
+    vertical-align : top;
+    text-align : left;
+    width: 95%
+}
+.tddivider {
+    width: 10px;
+    border-left: thin groove White
+}
+.tdscroll {
+    overflow: auto
+}
+.tdsmall {
+    font-size: 75%
+}
+.tdlarge {
+    font-size: 85%
+}
+
+.tdtitle {
+    font-size: 110%;
+    color: navy;
+    text-transform: uppercase;
+    padding-bottom: 5px
+}
+.tdsubtitle {
+    font-size: 100%;
+    font-weight: bold;
+    color: navy;
+    text-transform: capitalize;
+    padding-bottom: 3px
+}
+
+/*This section contains form object styles */
+
+.btnmain {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: normal;
+    color: #002266;
+    font-size: 75%;
+    width: 80px;
+    height: 24px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+
+.btnmain1 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: bold;
+    color: #002266;
+    font-size: 75%;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+
+
+
+.btnban {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: bold;
+    color: #002266;
+    font-size: 75%;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+.btndec {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: normal;
+    color: #002266;
+    width: 65px;
+    font-size: 70%;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+.btncalc {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    font-weight: bold;
+    color: #002266;
+    width: 110px;
+    font-size: 100%;
+    height: 20px;
+    vertical-align: middle;
+    text-transform: capitalize
+}
+
+.chkCheck {
+    background-color: #E0FFFF;
+}
+.txtregular {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    color: #002266;
+    font-weight: normal;
+    font-size: 75%;
+    cursor: text;
+    height: 24px;
+}
+.txtredregular {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    color: #FF0000;
+    font-weight: normal;
+    font-size: 75%;
+    cursor: text
+}
+.txtregular1 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    color: #002266;
+    font-weight: normal;
+    font-size: 100%;
+    cursor: text
+}
+.txtregulardis {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: silver;
+    font-weight: normal;
+    font-size: 75%;
+    cursor: text
+}
+.slctpull {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    color: #002266;
+    font-weight: normal;
+    font-size: 70%;
+    padding: 0;
+    margin: 0;
+    height:18px;
+}
+.slctpulldis {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: silver;
+    font-weight: normal;
+    font-size: 74%
+}
+.slctbox {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #E6E6FA;
+    color: #002266;
+    font-weight: normal;
+    font-size: 74%
+}
+.slctboxdis {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: silver;
+    font-weight: normal;
+    font-size: 74%
+}
+
+/*This section contains miscellaneous styles applied to text */
+
+.txtwarning {
+    font-weight: bold;
+    font-size: 75%;
+    color: Red;
+    overflow:auto
+}
+.txtsmall {
+    font-size: 55%;
+    font-weight: bold
+}
+.txtcaps {
+    text-transform: uppercase;
+    font-size: 75%
+}
+.txtcapsbld {
+    text-transform: uppercase;
+    font-size: 75%;
+    font-weight: bold
+}
+.txtfirstcaps {
+    font-size: 75%;
+    text-transform: capitalize
+}
+.txtfirstcapDCP {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    background-color: #e0e0f8;
+    font-size: 70%;
+    height: 16px
+}
+.txtmono {
+    font-family: monospace, Tahoma, Arial, sans-serif;
+    font-size: 70%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1px
+}
+.txtdate {
+    font-family: monospace, Tahoma, Arial, sans-serif;
+    font-size: 75%;
+    font-weight: bold
+}
+.txtdis {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 75%;
+    color: gray;
+    filter : dropshadow(color=silver, offX=2, offy=2, positive=2)
+}
+.negval {
+    color: red;
+    font-size: 75%
+}
+.txtfirstcapsDisp{
+    font-size: 60%;
+    text-transform: capitalize
+}
+.tdShade1boldyellow {
+    font-weight: bold;
+    font-size: 75%;
+    background-color: yellow
+}
+.tdShade1boldgreen {
+    font-weight: bold;
+    font-size: 75%;
+    background-color:green
+}
+.tdShade1boldred {
+    font-weight: bold;
+    font-size: 75%;
+    background-color: red
+}
+.tableWidget_headerCell,.tableWigdet_headerCellOver,.tableWigdet_headerCellDown{
+/* General rules for both standard column header and mouse on header of sortable columns */
+    cursor:pointer;
+    border-bottom:3px solid #C5C2B2;
+    border-right:1px solid #ACA899;
+    border-left:1px solid #FFF;
+    background-color: #ECE9D8;
+}
+
+.tableWidget_headerCell{ /* Standard column header */
+    border-top:2px solid #ECE9D8;
+
+}
+
+.tableWigdet_headerCellOver{ /* Rollover on sortable column header */
+    border-top:2px solid #FFC83C;
+}
+.tableWidget tbody .tableWidget_dataRollOver{  /* Rollover style on mouse over (Data) */
+    background-color:#FFF; /* No mouseover color in this example - specify another color if you want this */
+}
+
+.tableWigdet_headerCellDown{
+    border-top:2px solid #FFC83C;
+    background-color:#DBD8C5;
+    border-left:1px solid #ACA899;
+    border-right:1px solid #FFF;
+}
+.tableWidget td{
+    margin:0px;
+    padding:2px;
+
+
+}
+.tableWidget tbody{
+    background-color:#FFF;
+}
+.tableWidget{
+    font-family:Tahoma, Arial, Helvetica, sans-serif;
+    font-size:15.5px;
+    width:400px;
+    table-layout: fixed;
+    z-index: 1;
+    overflow: hidden;
+}
+div.widget_tableDiv {
+    border:1px solid #ACA899; /* Border around entire widget */
+    height: 100px;
+    overflow:auto;
+    overflow-y:auto;
+    overflow:-moz-scrollbars-vertical;
+    width:400px;
+
+}
+
+html>body div.widget_tableDiv {
+    overflow: hidden;
+    width:400px;
+}
+
+
+.tableWidget thead tr{
+    position : relative;
+
+}
+
+.tableWidget .scrollingContent{
+    overflow-y:auto;
+    overflow:-moz-scrollbars-vertical;
+    width:100%;
+
+}
+.tableStyleFinalist {
+    color: gray;
+    border: thin groove #ADD8E6;
+    overflow-x: auto;
+    overflow-y: auto;
+    cursor: default;
+    height: 100%;
+    width: 100%;
+}
+
+   .txtbgcolorred {
+       font-family: Tahoma, Arial, Helvetica, sans-serif;
+       background-color: #FF0000;
+       color: #002266;
+       font-weight: normal;
+       font-size: 75%;
+       cursor: text
+   }
+.txtbgcolorgreen {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #008000;
+    color: #002266;
+    font-weight: normal;
+    font-size: 75%;
+    cursor: text
+}
+/* End Discover main style sheet */

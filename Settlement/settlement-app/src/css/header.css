@@ -1,0 +1,96 @@
+
+#content {
+  padding-top: 70px;
+  min-height: ~"calc(100vh - 92px)";
+}
+
+footer {
+ 
+  border-radius: 0 !important;
+  border-bottom: 0;
+  margin: 20px 0 0;
+
+  .copyright {
+    padding-top: @padding-small-horizontal / 2;
+    padding-bottom: @padding-small-horizontal;
+  }
+}
+
+.header-wrapper {
+    border-bottom: 1px solid #dbdbdb;
+    height: auto;
+    position: fixed;
+    left : 0px;
+    top: 0;
+    width: 100%;
+    background: #f8f8f8;
+    z-index: 11;
+}
+
+.header-wrapper .header-content {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background: #f8f8f8;
+}
+
+
+.header-wrapper .logo-container {
+    float: left;
+}
+
+.header-wrapper .opener-container {
+    float: left;
+    margin-left: 15px;
+}
+
+.header-wrapper .logo-container .discover-logo {
+    position: relative;
+    display: inline-block;
+    padding: 23px 0 20px 0;
+}
+
+.header-wrapper a:link {
+    text-decoration: none;
+}
+
+.header-wrapper * {
+    box-sizing: border-box;
+}
+
+.header-wrapper .right-nav {
+    float: right;
+    margin: 0;
+}
+
+.header-wrapper .navbar-nav, .header-wrapper .opener-container {
+    height: 63px;
+}
+
+.header-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-wrapper .right-nav .log-in-link {
+    display: inline-block;
+    line-height: 20px;
+    padding: 8px 11px;
+    margin: 14px 0 13px 19px;
+    background: #ff6000;
+    color: #fff;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+
+

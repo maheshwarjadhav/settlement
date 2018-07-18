@@ -1,0 +1,81 @@
+
+.header {
+background-color: #6699cc;
+height:55px;
+  width: 100%;
+  position: fixed;
+  top:0
+}
+.panel{
+  background-color: #cbeeff;
+  padding: 20px;
+}
+.login,.clear{
+  background-color:#f89f59;
+  color:#fff
+}
+.link{
+  width:169px;
+  padding:1px;
+  font-size: 12px;
+}
+.link:hover{
+  background: navy;
+}
+.linkSpan{
+  margin:10px;
+}
+.navDiv{
+  border:1px solid black;
+  position:fixed;
+  left:305px;
+  top:29px;
+  background-color:#6699CC;
+  width:170px;
+  height:220px;
+  z-index: 2;
+
+}
+.linkDiv{
+  border:1px solid black;
+  position:fixed;
+  left:386px;
+  top:29px;
+  background-color:#6699CC;
+  width:170px;
+  height:290px;
+  z-index: 2;
+
+}
+.mockform{
+  padding: 20px;
+}
+.footer{
+  height: 50px;
+  padding: 5px;
+  bottom: 0;
+  position: fixed;
+}
+.bg-light {
+  background-color: #69c !important;
+}
+.dropdown-item:hover{
+  background-color: #3b92cc;
+  color:#fff;
+}
+.mockText{
+  font-size: 75%;
+}
+.searchclear {
+  position: relative;
+  left: -17px;
+  font-size: 75%;
+}
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.arrow{
+  vertical-align: middle
+}
